@@ -33,7 +33,7 @@ int initialization()
     Sleep(2500);
     util::hide();
 
-    /* Download your driver */
+    /* Download your driver(s) here */
     std::vector<uint8_t> bytes = AuthInstance.file(xorstr("file name"));
 
     /* KDMAPPER https://github.com/TheCruZ/kdmapper */
@@ -68,7 +68,7 @@ int initialization()
 
     util::show();
 
-    /* Call cheat main */
+    /* Call cheat main or if this is a spoofer u can exit here */
     util::ColorTo(GREEN);
     std::cout << xorstr("\n    [!] Rest is all you, make sure to join https://discord.gg/authvip if you need any help. \n");
     Sleep(-1);
