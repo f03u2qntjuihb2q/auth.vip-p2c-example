@@ -4,4 +4,4 @@ Example using KDMapper (https://github.com/TheCruZ/kdmapper) and auth streaming 
 
 # help no work
 
-Extract libs in the lib folder and make edits in main.cpp!
+make a folder called libs and extract the libs provided to you in the c++ example on site
